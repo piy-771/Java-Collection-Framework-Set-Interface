@@ -29,6 +29,14 @@ class TreeSet1{
             System.out.println(data + " not found");
         }
     }
+
+    public void removeAll(){
+        set.clear();
+        System.out.println(set);
+        if(set.isEmpty()){
+            System.out.println("Set is empty");
+        }
+    }
 }
 
 public class TreeSetDemo {
@@ -43,6 +51,7 @@ public class TreeSetDemo {
         obj.searchRecord(250);
         obj.remove(250);
         obj.searchRecord(250);
+        obj.removeAll();
 
     }
 }
