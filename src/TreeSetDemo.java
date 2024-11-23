@@ -44,7 +44,7 @@ public class TreeSetDemo {
         TreeSet1 obj = new TreeSet1();
         obj.addRecord(50);
         obj.addRecord(40);
-        obj.addRecord(700);
+        obj.addRecord(40);
         obj.addRecord(250);
         obj.addRecord(700);
         obj.viewRecord();
